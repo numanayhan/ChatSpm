@@ -1,0 +1,12 @@
+//
+//  module.modulemap.modulemap
+//  ChatSpm
+//
+//  Created by Tk on 27.12.2024.
+//
+
+module LibSignalClient {
+    header "LibSignalClient.h"
+    link "LibSignalClient"
+    export *
+}
